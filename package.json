@@ -1,0 +1,23 @@
+{
+  "name": "vote",
+  "version": "1.0.0",
+  "description": "Conception d'un site de vote en ligne où le vote se fait par des utilisateurs possédant un NFT spécifique. Avant de permettre à un utilisateur de voter, le système doit vérifier la possession du NFT dans le wallet de l'utilisateur. Cela fait, le vote est pris en compte et enregistre dans la blockchain",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ousmane-275/mon-joker.git"
+  },
+  "author": "Ousmane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ousmane-275/mon-joker/issues"
+  },
+  "homepage": "https://github.com/Ousmane-275/mon-joker#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.10"
+  }
+}
